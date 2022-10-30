@@ -1,0 +1,32 @@
+body {
+    display: grid;
+    justify-content: center;
+    padding: 100px;
+    background-color: #222329;
+}
+.container {
+    display: grid;
+    margin-top: 100px;
+    padding: 30px;
+    width: 450px;
+    background-color: #353c4b;
+    border-radius: 25px;
+}
+.header {
+    color: #FFFFFF;
+}
+.text {
+    display: grid;
+    margin-top: 25px;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+}
+.btn {
+    background-color: #407ad5;
+    color: #FFFFFF;
+    border: 100px;
+    width: 100%;
+}
