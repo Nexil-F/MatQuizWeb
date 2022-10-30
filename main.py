@@ -72,7 +72,7 @@ def dot_comma(x):
     return x.translate(swap)
 
 
-@app.route("/matquiz", methods=["GET", "POST"])
+@app.route("/", methods=["GET", "POST"])
 def home():
     global resultat
     resultat = ""
